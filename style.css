@@ -32,7 +32,7 @@ h2{
 }
 
 input{
-    width: 90px;
+    width: 105px;
     height: 25px;
     margin-left: 140px;
     text-align: left;
@@ -43,7 +43,7 @@ input{
 label{
     font-size: 18px;
     text-align: left;
-    margin-left: 140px;
+    margin-left: 150px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
@@ -56,5 +56,15 @@ label{
     background-color: #FFFFFF;
     color: #000000;
     font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+}
+
+
+.resp{
+    font-size: 10x;
+    text-align: left;
+    margin-left: 290px;
+    margin-top: -50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }

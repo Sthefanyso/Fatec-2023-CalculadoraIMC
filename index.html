@@ -20,20 +20,25 @@
     <div class="label">
     <label><strong>Peso</strong></label>
     </div>
-    <input type="text" id="num1" class="input"><br><br>
+    <input type="text" id="peso" class="input" placeholder="Digite em quilos"><br><br>
     <!-- Defi botão -->
     <div class="button">
-    <button  type ="button" class ="btncalcular" onclick=" "><strong>Calcular</strong></botão>
+    <button  type ="button" class ="btncalcular" onclick="calcIMC()"><strong>Calcular</strong></botão>
     </div>
     <!-- Infos Altura -->
     <div class="label">
     <label><strong>Altura</strong></label>
     </div>
-    <input type="text" id="num2" class="input"><br><br><br>
+    <input type="text" id="altura" class="input" placeholder="Digite em metros"><br><br><br>
     <!-- Infos Resultado -->
     <label  style ="color:#66CDAA"><strong> Resultado </strong></label>
+    <div class = resp>
+    <p class="resultado"></p>
+    <p class="classificacao"></p>
+    </div>
     </form>
     </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
